@@ -17,7 +17,7 @@ pipeline {
 	AWS_DEFAULT_OUTPUT    = 'json'
 	   
 	STAGING_TASK    = 'nodejs-staging-task'
-	STAGING_CLUSTER = 'nodejs-staging-cluster'
+	STAGING_CLUSTER = 'nodejs-staging-cluster1'
 	STAGING_SERVICE = 'nodejs-staging-srv'
 	   
 	RELEASE_TASK    = 'nodejs-release-task'

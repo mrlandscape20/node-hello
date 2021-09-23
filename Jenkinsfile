@@ -5,10 +5,10 @@ pipeline {
    
    environment { 
 	   
-	#DOCKER_IMAGE = 'nodejs/app'
+	//DOCKER_IMAGE = 'nodejs/app'
 	DOCKER_IMAGE = 'nodejs'
 	   
-	#ECR_REPO = '007293158826.dkr.ecr.ap-southeast-1.amazonaws.com/nodejs'
+	//ECR_REPO = '007293158826.dkr.ecr.ap-southeast-1.amazonaws.com/nodejs'
 	
 	APP_VERSION = "${BUILD_ID}"
         APP_ENV = "${BRANCH_NAME}"

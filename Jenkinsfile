@@ -7,6 +7,7 @@ pipeline {
 	   
 	//DOCKER_IMAGE = 'nodejs/app'
 	//disable old jenkins jobs
+	// final test
 	DOCKER_IMAGE = 'nodejs'
 	   
 	//ECR_REPO = '007293158826.dkr.ecr.ap-southeast-1.amazonaws.com/nodejs'
